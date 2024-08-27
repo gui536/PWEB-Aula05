@@ -1,0 +1,41 @@
+/* Para selecionar a página inteira, 
+selecionamos o seletor * */
+body{
+    background-image: url("../img/sala-de-aula-combinados-getty-image.webp");
+    background-size: cover;
+}
+
+/* Adicionando cor no seletor p*/
+p{
+    color: #ff00e1;
+}
+/* Para identificar o class, digita-se ponto 
+e o nome da classe. Exemplo: .centro*/
+.centro {
+    text-align: center;
+    color: blue;
+}
+/* Para identificar o id, digita-se # 
+e o nome da classe. Exemplo: #unico*/
+#unico{
+    color: darkgoldenrod;
+    text-align: right;
+}
+
+.lab{
+    color: darkmagenta;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.prof{
+    color: hotpink;
+    text-decoration: dotted;
+    text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
